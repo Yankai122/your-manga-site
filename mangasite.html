@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Link</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px;
+        }
+        .manga-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .manga-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .manga-item:hover {
+            transform: scale(1.05);
+        }
+        .manga-title {
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            text-align: center;
+            font-size: 18px;
+        }
+        .manga-description {
+            padding: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+        .button {
+            display: block;
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manga Link</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Genres</a>
+        <a href="#">Latest Chapters</a>
+        <a href="#">Search</a>
+    </nav>
+
+    <div class="container">
+        <!-- Manga 1 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+1" alt="Manga 1">
+            <div class="manga-title">Manga Title 1</div>
+            <div class="manga-description">
+                A brief description of Manga 1. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 2 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+2" alt="Manga 2">
+            <div class="manga-title">Manga Title 2</div>
+            <div class="manga-description">
+                A brief description of Manga 2. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 3 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+3" alt="Manga 3">
+            <div class="manga-title">Manga Title 3</div>
+            <div class="manga-description">
+                A brief description of Manga 3. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 4 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+4" alt="Manga 4">
+            <div class="manga-title">Manga Title 4</div>
+            <div class="manga-description">
+                A brief description of Manga 4. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 5 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+5" alt="Manga 5">
+            <div class="manga-title">Manga Title 5</div>
+            <div class="manga-description">
+                A brief description of Manga 5. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 6 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+6" alt="Manga 6">
+            <div class="manga-title">Manga Title 6</div>
+            <div class="manga-description">
+                A brief description of Manga 6. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+
+        <!-- Manga 7 -->
+        <div class="manga-item">
+            <img src="https://via.placeholder.com/300x400?text=Manga+7" alt="Manga 7">
+            <div class="manga-title">Manga Title 7</div>
+            <div class="manga-description">
+                A brief description of Manga 7. <br> More details can be added here.
+            </div>
+            <a href="#" class="button">Read More</a>
+        </div>
+    </div>
+</body>
+</html>
